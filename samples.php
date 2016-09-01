@@ -15,7 +15,7 @@ $VarBool = true;
 
 // Not recomended names
 $_var6 = "Bob";
-$varМиша = false;
+$varРњРёС€Р° = false;
 
 
 
@@ -24,17 +24,17 @@ $varМиша = false;
 **/
 
 define ("CONSTANT", "Hello world."); 
-echo CONSTANT; // выводит "Hello world." 
-echo Constant; // выводит "Constant" и уведомление. 
+echo CONSTANT; // РІС‹РІРѕРґРёС‚ "Hello world." 
+echo Constant; // РІС‹РІРѕРґРёС‚ "Constant" Рё СѓРІРµРґРѕРјР»РµРЅРёРµ. 
 
 define ("GREETING", "Hello you.", TRUE); 
-echo GREETING; // выводит "Hello you." 
-echo Greeting; // выводит "Hello you."
+echo GREETING; // РІС‹РІРѕРґРёС‚ "Hello you." 
+echo Greeting; // РІС‹РІРѕРґРёС‚ "Hello you."
 
 // Magic constants
-echo __LINE__ //Текущий номер строки в файле
-echo __FILE__ //Полный путь и имя текущего файла с развернутыми симлинками
-echo __DIR__ //Директория файла
+echo __LINE__ //РўРµРєСѓС‰РёР№ РЅРѕРјРµСЂ СЃС‚СЂРѕРєРё РІ С„Р°Р№Р»Рµ
+echo __FILE__ //РџРѕР»РЅС‹Р№ РїСѓС‚СЊ Рё РёРјСЏ С‚РµРєСѓС‰РµРіРѕ С„Р°Р№Р»Р° СЃ СЂР°Р·РІРµСЂРЅСѓС‚С‹РјРё СЃРёРјР»РёРЅРєР°РјРё
+echo __DIR__ //Р”РёСЂРµРєС‚РѕСЂРёСЏ С„Р°Р№Р»Р°
 
 
 
@@ -44,8 +44,8 @@ echo __DIR__ //Директория файла
 
 $type[1] = 1; 							// Integer
 $type[2] = "123" 						// String
-$type[21] = "ООО \"Кост. и вел.\"";		// String
-$type[22] = 'сім\'я';					// String
+$type[21] = "РћРћРћ \"РљРѕСЃС‚. Рё РІРµР».\"";		// String
+$type[22] = 'СЃС–Рј\'СЏ';					// String
 $type[3] = true;						// Boolean
 $type[4] = 1.23							// Float
 $type[5] = array(1,2,3);				// Array
