@@ -5,10 +5,10 @@
 **/
  
 // Right names
-$var1 = "Bob";
-$var2 = 'Bob';
-$var3 = 123;
-$var4 = true;
+$var = "Bob";
+$Var = 'Bob';
+$myVar = 123;
+$VarBool = true;
 
 // Wrong names
 //$5var = "Bob";
